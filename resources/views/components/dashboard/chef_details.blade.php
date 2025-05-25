@@ -1,5 +1,5 @@
 <!-- Profile and Date Card -->
-<div class="relative flex justify-between items-center bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl p-5 mb-6 shadow-md">
+<div class="relative flex justify-between items-center bg-gradient-to-r from-orange-500/70 to-red-600/70 rounded-2xl p-5 mb-6 shadow-md">
     <div class="flex items-center gap-4">
         <img src="https://i.pravatar.cc/100" alt="Profile" class="w-16 h-16 rounded-full border-2 border-white" />
         <div>
