@@ -17,3 +17,18 @@ Route::get('/hours_controls', [SetRosterController::class, 'showPage'])->name('h
 Route::get('/prep-list', function () {
     return view('prep-list');
 });
+
+Route::get('/add-staff', function () {
+    return view('add_staff');
+});
+Route::get('/suppliers/home', function () {
+    return view('supplier_home');
+});
+
+
+
+
+
+Route::view('/dashboard', 'pages.dashboard');
+
+
