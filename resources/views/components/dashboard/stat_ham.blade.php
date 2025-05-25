@@ -2,16 +2,16 @@
 <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
 
 <!-- SECOND NAVBAR: Tabs and Icons -->
-<div class="bg-white shadow-sm border-t border-gray-200 mt-6 mb-6" x-data="{ showIcons: false }">
+<div class="bg-gradient-to-r from-green-500 to-teal-500 shadow-sm border-t border-gray-200 mt-6 mb-6 rounded-xl" x-data="{ showIcons: false }">
     <div class="flex flex-col lg:flex-row items-center justify-between px-6 py-4 gap-4">
 
         <!-- Tab and Hamburger -->
         <div class="w-full flex justify-between items-center lg:w-auto">
-            <button class="px-6 py-2 border rounded text-orange-500 border-orange-300 font-semibold text-sm shadow-sm">
+            <button class="px-6 py-2 border rounded text-white border-white font-semibold text-sm shadow-sm">
                 Statistics
             </button>
             <!-- Hamburger Icon (Mobile Only) -->
-            <button @click="showIcons = !showIcons" class="text-2xl lg:hidden text-orange-500">
+            <button @click="showIcons = !showIcons" class="text-2xl lg:hidden text-white">
                 &#9776;
             </button>
         </div>

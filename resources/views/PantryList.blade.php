@@ -68,10 +68,79 @@
 
     <!-- BUTTON GRID -->
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 px-4 py-6 max-w-5xl mx-auto">
-      <button class="bg-orange-500 text-white py-4 rounded-xl shadow hover:bg-orange-600 text-lg font-semibold">Roster Setting</button>
-      <button class="bg-orange-500 text-white py-4 rounded-xl shadow hover:bg-orange-600 text-lg font-semibold">View Roster</button>
-      <button class="bg-orange-500 text-white py-4 rounded-xl shadow hover:bg-orange-600 text-lg font-semibold">Suppliers</button>
+      <button class="bg-orange-500 text-white py-4 rounded-xl shadow hover:bg-orange-600 text-lg font-semibold">Sections</button>
+      <button class="bg-orange-500 text-white py-4 rounded-xl shadow hover:bg-orange-600 text-lg font-semibold">Pantry List</button>
+    <button class="bg-orange-500 text-white py-4 rounded-xl shadow hover:bg-orange-600 text-lg font-semibold">Prep-List</button>
+</div>
+
+<div class="flex justify-between items-center w-full px-4 py-2">
+  <!-- Left: Action Button -->
+  <button class="bg-orange-500 text-white font-semibold px-4 py-1 rounded border border-orange-500 shadow-sm">
+    Action
+  </button>
+
+  <!-- Right: Edit Pantry Link -->
+  <a href="#" class="flex items-center text-orange-500 font-semibold space-x-1">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536M9 11l6.768-6.768a2 2 0 112.828 2.828L11.828 13.828a4 4 0 01-1.414.828L7 15l1.344-3.414a4 4 0 01.828-1.414z" />
+    </svg>
+    <span>Edit Pantry</span>
+  </a>
+</div>
+
+<div class="overflow-x-auto whitespace-nowrap px-2 py-3">
+  <div class="inline-flex space-x-3 min-w-max">
+    <!-- Buttons -->
+<button class="bg-gray-100 text-orange-500 border border-orange-500 font-semibold px-6 py-2 rounded-md">Pan</button>
+    <button class="bg-gray-100 text-orange-500 border border-orange-500 font-semibold px-6 py-2 rounded-md">Ladder</button>
+    <button class="bg-gray-100 text-orange-500 border border-orange-500 font-semibold px-6 py-2 rounded-md">Pizza</button>
+    <button class="bg-gray-100 text-orange-500 border border-orange-500 font-semibold px-6 py-2 rounded-md">Dessert Section</button>
+    <button class="bg-gray-100 text-orange-500 border border-orange-500 font-semibold px-6 py-2 rounded-md">Bar</button>
+    <button class="bg-gray-100 text-orange-500 border border-orange-500 font-semibold px-6 py-2 rounded-md">Kitchen hand</button>
+<button class="bg-gray-100 text-orange-500 border border-orange-500 font-semibold px-6 py-2 rounded-md">Pan</button>
+    <button class="bg-gray-100 text-orange-500 border border-orange-500 font-semibold px-6 py-2 rounded-md">Ladder</button>
+    <button class="bg-gray-100 text-orange-500 border border-orange-500 font-semibold px-6 py-2 rounded-md">Pizza</button>
+    <button class="bg-gray-100 text-orange-500 border border-orange-500 font-semibold px-6 py-2 rounded-md">Dessert Section</button>
+    <button class="bg-gray-100 text-orange-500 border border-orange-500 font-semibold px-6 py-2 rounded-md">Bar</button>
+    <button class="bg-gray-100 text-orange-500 border border-orange-500 font-semibold px-6 py-2 rounded-md">Kitchen hand</button>
+  </div>
+</div>
+
+
+<div class="flex items-center justify-between px-4 py-3">
+  <!-- Left: Search Box -->
+  <div class="flex items-center border border-orange-500 rounded-md overflow-hidden bg-gray-50 w-1/3">
+    <input
+      type="text"
+      placeholder="Search Item"
+      class="w-full px-3 py-2 bg-transparent focus:outline-none"
+    />
+    <div class="px-3 text-gray-600">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 104.5 4.5a7.5 7.5 0 0012.15 12.15z" />
+      </svg>
     </div>
+  </div>
+
+  <!-- Middle: Title -->
+  <div class="text-center font-semibold text-lg">
+    Pan Pantry List
+  </div>
+
+  <!-- Right: Clear Button -->
+  <button class="border border-orange-500 text-orange-500 font-medium px-4 py-2 rounded-md hover:bg-orange-50">
+    Clear List
+  </button>
+</div>
+
+
+
+
+
+
+
+
 
 
 
@@ -83,7 +152,7 @@
 
 <div class="bg-white rounded-lg shadow border p-4 flex flex-wrap lg:flex-nowrap items-start gap-4 w-full max-w-7xl mx-auto">
 <!-- Image -->
-<img src="https://via.placeholder.com/80" alt="Beef Tenderloin" class="w-24 h-24 rounded object-cover" />
+<img src="https://res.cloudinary.com/dnawewlz7/image/upload/v1/Restaurant%20Tech%20Files/ordersplus/ceaq34buz1vtmyxda3iz" alt="Beef Tenderloin" class="w-24 h-24 rounded object-cover" />
 <!-- Product Details -->
 <div class="flex flex-col justify-between w-52">
 <div class="font-semibold text-lg">Beef Tenderloin</div>
